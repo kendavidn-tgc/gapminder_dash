@@ -5,7 +5,7 @@ theme: lux
 ---
 
 ```{r}
-# Load packages
+# Load packages 
 if(!require(pacman)) install.packages("pacman")
 pacman::p_load(tidyverse, gapminder,
                bslib, bsicons, shiny,
